@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "realisateur_id": "1",
+        "titre": "TITANIC",
+        "duree": "195"
+    },
+    {
+        "id": "2",
+        "realisateur_id": "2",
+        "titre": "INCEPTION",
+        "duree": "148"
+    },
+    {
+        "id": "3",
+        "realisateur_id": "2",
+        "titre": "THE DARK KNIGHT RISES",
+        "duree": "164"
+    },
+    {
+        "id": "4",
+        "realisateur_id": "3",
+        "titre": "LE MANS 66",
+        "duree": "153"
+    }
+]

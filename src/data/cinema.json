@@ -1,0 +1,286 @@
+{
+  "comments": [
+    {
+      "id": 1,
+      "content": "blabla",
+      "filmId": 1
+    },
+    {
+      "content": "test",
+      "filmId": "1",
+      "id": 2
+    }
+  ],
+  "acteur": [
+    {
+      "id": "1",
+      "nom": "DICAPRIO",
+      "prenom": "Leonardo"
+    },
+    {
+      "id": "2",
+      "nom": "WINSLET",
+      "prenom": "Kate"
+    },
+    {
+      "id": "3",
+      "nom": "COTILLARD",
+      "prenom": "Marion"
+    },
+    {
+      "id": "4",
+      "nom": "PAGE",
+      "prenom": "Ellen"
+    },
+    {
+      "id": "5",
+      "nom": "BALE",
+      "prenom": "Christian"
+    },
+    {
+      "id": "6",
+      "nom": "HATHAWAY",
+      "prenom": "Anne"
+    },
+    {
+      "id": "7",
+      "nom": "BALE",
+      "prenom": "Christian"
+    },
+    {
+      "id": "8",
+      "nom": "FREEMAN",
+      "prenom": "Morgan"
+    },
+    {
+      "id": "9",
+      "nom": "DAMON",
+      "prenom": "Matt"
+    },
+    {
+      "id": "10",
+      "nom": "BALFE",
+      "prenom": "Caitriona"
+    }
+  ],
+  "film": [
+    {
+      "id": "1",
+      "realisateurId": "1",
+      "titre": "TITANIC",
+      "duree": "195"
+    },
+    {
+      "id": "2",
+      "realisateurId": "2",
+      "titre": "INCEPTION",
+      "duree": "148"
+    },
+    {
+      "id": "3",
+      "realisateurId": "2",
+      "titre": "THE DARK KNIGHT RISES",
+      "duree": "164"
+    },
+    {
+      "id": "4",
+      "realisateurId": "3",
+      "titre": "LE MANS 66",
+      "duree": "153"
+    }
+  ],
+  "joue": [
+    {
+      "film_id": "1",
+      "acteur_id": "1",
+      "role": "Jack Dawson"
+    },
+    {
+      "film_id": "1",
+      "acteur_id": "2",
+      "role": "Rose DeWitt Bukater"
+    },
+    {
+      "film_id": "2",
+      "acteur_id": "1",
+      "role": "Dom Cobb"
+    },
+    {
+      "film_id": "2",
+      "acteur_id": "3",
+      "role": "Mall"
+    },
+    {
+      "film_id": "2",
+      "acteur_id": "4",
+      "role": "Ariane"
+    },
+    {
+      "film_id": "3",
+      "acteur_id": "3",
+      "role": "Miranda"
+    },
+    {
+      "film_id": "3",
+      "acteur_id": "5",
+      "role": "Bruce Wayne"
+    },
+    {
+      "film_id": "3",
+      "acteur_id": "6",
+      "role": "Selina"
+    },
+    {
+      "film_id": "3",
+      "acteur_id": "7",
+      "role": "Fox"
+    },
+    {
+      "film_id": "4",
+      "acteur_id": "5",
+      "role": "Ken Miles"
+    },
+    {
+      "film_id": "4",
+      "acteur_id": "8",
+      "role": "Carroll Shelby"
+    },
+    {
+      "film_id": "4",
+      "acteur_id": "9",
+      "role": "Mollie Miles"
+    }
+  ],
+  "realisateur": [
+    {
+      "id": "1",
+      "nom": "CAMERON",
+      "prenom": "James"
+    },
+    {
+      "id": "2",
+      "nom": "NOLAN",
+      "prenom": "Christopher"
+    },
+    {
+      "id": "3",
+      "nom": "MANGOLD",
+      "prenom": "James"
+    }
+  ],
+  "salle": [
+    {
+      "id": "1",
+      "nom": "Salle fantastique"
+    },
+    {
+      "id": "2",
+      "nom": "Salle space opera"
+    },
+    {
+      "id": "3",
+      "nom": "Salle médiévale"
+    },
+    {
+      "id": "4",
+      "nom": "Salle obscure"
+    }
+  ],
+  "seance": [
+    {
+      "film_id": "1",
+      "salle_id": "1",
+      "date_seance": "2020-08-10 09:00:00"
+    },
+    {
+      "film_id": "1",
+      "salle_id": "1",
+      "date_seance": "2020-08-10 12:30:00"
+    },
+    {
+      "film_id": "1",
+      "salle_id": "1",
+      "date_seance": "2020-08-10 15:45:00"
+    },
+    {
+      "film_id": "1",
+      "salle_id": "1",
+      "date_seance": "2020-08-10 20:00:00"
+    },
+    {
+      "film_id": "2",
+      "salle_id": "2",
+      "date_seance": "2020-08-10 09:00:00"
+    },
+    {
+      "film_id": "2",
+      "salle_id": "2",
+      "date_seance": "2020-08-10 11:45:00"
+    },
+    {
+      "film_id": "2",
+      "salle_id": "2",
+      "date_seance": "2020-08-10 14:30:00"
+    },
+    {
+      "film_id": "2",
+      "salle_id": "2",
+      "date_seance": "2020-08-10 17:15:00"
+    },
+    {
+      "film_id": "2",
+      "salle_id": "2",
+      "date_seance": "2020-08-10 20:00:00"
+    },
+    {
+      "film_id": "3",
+      "salle_id": "4",
+      "date_seance": "2020-08-10 09:00:00"
+    },
+    {
+      "film_id": "3",
+      "salle_id": "4",
+      "date_seance": "2020-08-10 12:00:00"
+    },
+    {
+      "film_id": "3",
+      "salle_id": "4",
+      "date_seance": "2020-08-10 15:00:00"
+    },
+    {
+      "film_id": "3",
+      "salle_id": "4",
+      "date_seance": "2020-08-10 18:00:00"
+    },
+    {
+      "film_id": "3",
+      "salle_id": "4",
+      "date_seance": "2020-08-10 21:00:00"
+    },
+    {
+      "film_id": "4",
+      "salle_id": "3",
+      "date_seance": "2020-08-10 09:00:00"
+    },
+    {
+      "film_id": "4",
+      "salle_id": "3",
+      "date_seance": "2020-08-10 11:45:00"
+    },
+    {
+      "film_id": "4",
+      "salle_id": "3",
+      "date_seance": "2020-08-10 14:30:00"
+    },
+    {
+      "film_id": "4",
+      "salle_id": "3",
+      "date_seance": "2020-08-10 17:15:00"
+    },
+    {
+      "film_id": "4",
+      "salle_id": "3",
+      "date_seance": "2020-08-10 20:00:00"
+    }
+  ]
+}
