@@ -4,6 +4,21 @@
       "id": 1,
       "content": "blabla",
       "filmId": 1
+    },
+    {
+      "content": "test 72",
+      "filmId": "1",
+      "id": 2
+    },
+    {
+      "content": "test 2",
+      "filmId": "1",
+      "id": 3
+    },
+    {
+      "content": "test 3",
+      "filmId": "1",
+      "id": 4
     }
   ],
   "acteurs": [
@@ -276,6 +291,16 @@
       "filmId": 4,
       "salleId": 3,
       "date_seance": "2020-08-10 20:00:00"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "nom": "poussel",
+      "prenom": "olivier",
+      "email": "olivier.poussel@gmail.com",
+      "password": "admin",
+      "role": "ROLE_ADMIN"
     }
   ]
 }

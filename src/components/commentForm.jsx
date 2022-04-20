@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function CommentForm({ filmId }) {
+export default function CommentForm({ filmId, addComment }) {
 
     const [content, setContent] = useState('')
 
@@ -25,7 +25,7 @@ export default function CommentForm({ filmId }) {
             body: JSON.stringify(data)
         })
             .then(response => response.json())
-            .then(data => console.log(data))
+            .then(data => addComment(data))
             .catch(error => console.error(JSON.stringify(error)))
     }
 
