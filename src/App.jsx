@@ -11,6 +11,8 @@ import Login from './pages/login';
 import React, { useState } from 'react';
 import { UserContext, contextPrototype } from './service/userContextService';
 import { getLocalStorage, USER_KEY } from './service/localStorageService';
+import CreateFilm from './pages/admin/createFilm';
+import Test from './pages/admin/test';
 
 
 
@@ -33,6 +35,8 @@ function App() {
           <Route path='/seances/:id' element={<Seances />} />
           <Route path='/film/:id' element={<DetailFilm />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/film/create' element={<CreateFilm />} />
+          <Route path='/test' element={<Test />} />
         </Routes>
       </main>
 

@@ -27,3 +27,9 @@ http://localhost:5000/films?_expand=realisateur&_embed=roles
 http://localhost:5000/roles?_expand=film&_expand=acteur
 http://localhost:5000/films?_expand=realisateur&_embed=comments
 ```
+
+### plugin ide vs-code
+
+- [react snipet](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+- [intellicode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+- [rest client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)

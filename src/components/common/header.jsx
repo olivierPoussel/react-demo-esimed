@@ -23,13 +23,17 @@ export default function Header() {
                         <NavItem url="/seances" itemName="Séance" isActive={false} />
                         {
                             (user?.id) ? (
-                                <li className="nav-item dropdown">
-                                    <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Nom Prenom</a>
-                                    <div className="dropdown-menu">
-                                        <a className="dropdown-item" href="#">Profil</a>
-                                        <a className="dropdown-item" href="#">Logout</a>
-                                    </div>
-                                </li>
+                                <>
+                                    <NavItem url="/test" itemName="Test" isActive={false} />
+                                    <NavItem url="/film/create" itemName="Créer un film" isActive={false} />
+                                    <li className="nav-item dropdown">
+                                        <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Nom Prenom</a>
+                                        <div className="dropdown-menu">
+                                            <a className="dropdown-item" href="#">Profil</a>
+                                            <a className="dropdown-item" href="#">Logout</a>
+                                        </div>
+                                    </li>
+                                </>
                             ) : (
                                 <NavItem url="/login" itemName="Connexion" isActive={false} />
                             )
