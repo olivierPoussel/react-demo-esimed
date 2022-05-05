@@ -11,7 +11,7 @@ export default function Films() {
     return (
         <ul>
             {
-                films.map(film => <li key={film.id} >
+                films?.map(film => <li key={film.id} >
                     <Link
                         to={`/film/${film.id}`}
                         state={film} >

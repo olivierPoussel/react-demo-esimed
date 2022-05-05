@@ -7,6 +7,22 @@ content-type: application/json
 }
 
 ####
-GET http://localhost:1337/api/comments?populate=film HTTP/1.1
+GET http://localhost:1337/api/comments/1?populate[0]=user HTTP/1.1
 content-type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjUwNTQ5ODQwLCJleHAiOjE2NTMxNDE4NDB9.slY5KDGux7FcaLiPS6eYf0S3EYOh6Nev5Sq3nYv0dU0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjUwNTQ5ODQwLCJleHAiOjE2NTMxNDE4NDB9.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjUwNTQ5ODQwLCJleHAiOjE2NTMxNDE4NDB9.Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjUwNTQ5ODQwLCJleHAiOjE2NTMxNDE4NDB9.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjUwNTQ5ODQwLCJleHAiOjE2NTMxNDE4NDB9.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjUxMDUwMTMyLCJleHAiOjE2NTM2NDIxMzJ9._FCO7EDKqBE7PDi2CX4R1eHKY3qRnmcuxRU07i4O2Bw
+###
+GET http://localhost:1337/api/acteurs/2?populate=* HTTP/1.1
+content-type: application/json
+###
+GET http://localhost:1337/api/acteurs/2?populate[0]=role_films&populate[1]=role_films.film HTTP/1.1
+content-type: application/json
+
+###
+POST http://localhost:1337/api/auth/local/register HTTP/1.1
+content-type: application/json
+
+{
+    "username": "test call api",
+    "email": "test@ex.com",
+    "password": "Test1234"
+}
